@@ -89,6 +89,12 @@ You should see exactly the same results.
 Try following along with the queries in xref:gsql-ref:tutorials:gsql-101/index.adoc[] using the same small friendship graph.
 Remember that Insights only works with GSQL queries in xref:gsql-ref:appendix:interpreted-gsql-limitations.adoc[Interpreted mode.]
 
+=== Configure timeout and memory limit
+
+You can set timeout and memory limits for each widget to optimize performance.
+
+image::widget-query-setting.png[]
+
 == Pathfinding
 
 TigerGraph Insights includes a simple way to run pathfinding detection algorithms without writing a single query.
